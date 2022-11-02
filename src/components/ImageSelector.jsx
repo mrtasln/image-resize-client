@@ -42,10 +42,6 @@ function ImageSelector(props) {
             // set size proportional to image
             canvas.height = canvas.width * (img.height / img.width);
 
-
-
-
-
             // step 1 - resize to 50%
             var oc = document.createElement('canvas'),
                 octx = oc.getContext('2d');
